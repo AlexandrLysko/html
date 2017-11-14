@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8" />
+		<title>Формы</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="topline">
+            	<div class="register">
+        			<label for="search">Поиск: </label>
+					<input id="search" type="search"  placeholder="введите слова для поиска" />
+    			</div>
+    		</div>
+            <div id="header">
+            </div>
+    		<div class="breadcrumbs">Формы</div>
+			</div>
+            <div id="leftcol">
+    <h3>Меню</h3>
+		<ul>
+			<li><a href="catalog.html">Каталог</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+			<li><a href="styles.html">Стили</a></li>
+		</ul>
+    </div>
+	<div id="main">
+    	<div class="topblock">
+        <h1>Приветствуем в нашем интернет-магазине!</h1>
+        <h3>Выберите нужный раздел в меню</h3> 
+    	</div>
+<!--Формы
+
+text
+
+email -проверка на майл
+url -проверка url
+password -звездочки
+hidden -невидимое
+autocomplete on off -автозаолнение
+autofocus -фокус курсора
+placeholder - подсказка
+disabled -нельзя ввести
+readonly -для чтения
+form="form_id" -если за тегом form передать в форму
+name="text" -передача на сервер
+minlenght="10"
+maxlenght="20"
+value="значение по-умолчанию" (не исчезает)
+
+text_area
+rows="5"
+cols="5"
+wrap= soft hard off перенос строк soft- без переноса на сервер
+
+numbers поле для чисел (стрелки больше/меньше)
+min=""
+max
+step шаг
+
+range Бегунок по-умолч от 0 до 100
+min=""
+max
+step шаг
+value знач по умолчанию-->
+                <form>
+                    <legend>КНОПКИ И ЧЕКБОКС</legend>
+                    <label><input type="radio" checked />text</label>
+                    <label><input type="checkbox" checked />text</label>
+                    
+                    <fieldset>
+                        <legend>РАДИОГРУППА Группа кнопок</legend>
+                        <label><input type="radio" name="sex">text</label>
+                        <label><input type="radio" name="sex">text</label>
+                        <label><input type="radio" name="sex">text</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>загрузка файлов</legend>
+                        <label><input type="file" name="sex">загрузка файлов</label>
+                        <label><input type="file" multiple>text</label>
+                        <label><input type="file" accept="image/*" multiple>text</label>
+                    </fieldset>
+             
+                    <fieldset>
+                        <legend>Кнопки</legend>
+                        <input type="button" value="кнопка">
+                        <input type="submit" value="отправить"> <!-- отправка формы -->
+                        <input type="reset" value="очистить"> <!-- отправка формы -->
+                    </fieldset>
+                        <button>HTML BUTTON </button>
+                        <input style="image" src="" alt=""> <!-- кнопка картинка -->
+                    
+                    <fieldset>
+                        <legend>Список</legend>
+                        <select>
+                        <!-- autofocus disabled multiple required size="num" -->
+                        <option value="1" label="3">item 1</option>
+                        <option value="2" selected>item 2</option>
+                        <option value="3">item 3</option>
+                        </select>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Список группа</legend>
+                        <select>
+                        <optgroup label="Название группы 1">
+                        <option value="1" >item 1</option>
+                        <option value="2" >item 2</option>
+                        <option value="3" >item 3</option>
+                        </optgroup>
+                        <optgroup label="Название группы 2">
+                        <option value="4" >item 4</option>
+                        <option value="5" >item 5</option>
+                        <option value="6" >item 6</option>
+                        </optgroup>
+                        </select>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend> Date Time</legend>
+                        <input type="date" value="2017-05-03" /> <!-- min max value -->
+                        <input type="time" value="11:15" />
+                        <input type="datetime" />
+                     </fieldset>
+                    <fieldset>
+                        <legend>Color picker</legend>
+                        <input type="color" />
+               		</fieldset>
+                    </form>
+             </div>
+            <div id="rightcol">
+            </div>
+            <div id="footer">
+            </div>
+		</div>
+	</body>
+</html>

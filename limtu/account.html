@@ -1,87 +1,65 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta charset="utf-8" />
-<title>Регистрация</title>
-</head>
-<body>
-<div id="container">
-	<div id="topline">
-		
-    	</div>
-    </div>
-	<div id="header">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8" />
+		<title>Регистрация</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="topline">
+            	<div class="register">
+        			<label for="search">Поиск: </label>
+					<input id="search" type="search"  placeholder="введите слова для поиска" />
+    			</div>
+    		</div>
+            <div id="header">
+            </div>
+    		<div class="breadcrumbs">Регистрация</div>
+			</div>
+            <div id="leftcol">
+        	<h3>Меню</h3>
+            <ul>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="styles.html">Стили</a></li>
+                <li><a href="forms.html">Формы</a></li>
+            </ul>
         </div>
-    	<div class="breadcrumbs">Регистрация</div>
-	</div>
-	<div id="leftcol">
-    <h3>Меню</h3>
-		<ul>
-			<li><a href="catalog.html">Каталог</a></li>
-			<li><a href="contacts.html">Контакты</a></li>
-			<li><a href="styles.html">Стили</a></li>
-		</ul>
-    </div>
-	<div id="main">
+		<div id="main">
     	<div class="topblock">
-        <h1>Регистрация нового покупателя</h1>
-        <h3>После регистрации проверьте свой почтовый ящик</h3> 
+            <h1>Регистрация нового покупателя</h1>
+            <h3>После регистрации проверьте свой почтовый ящик</h3> 
     	</div>
-        <div class="mainblock">
-        <form action="#" method="post">
-<fieldset>
-<div>
-<label for="email">Email: </label>
-<input id="email" type="text"  placeholder="введите email" required="required"/>
-</div><br />
-<div>
-<label for="textField">Имя: </label>
-<input id="textField" type="text"  placeholder="введите имя" required="required"/>
-</div><br />
-<div>
-<label for="pwd">Пароль: </label>
-<input id="pwd" type="password"  placeholder="введите пароль" required="required"/>
-</div><br />
-<input id="" type hidden="" />
-<input type="submit" id="submit" />
-</fieldset>
-        </div>
-    </div>
-	<div id="rightcol">
-    </div>
-	<div id="footer">
-    </div>
-</div>
-</body>
+        	<div class="mainblock">
+                 	<div id="reg-form">
+                        <form action="#" method="post">
+                        <fieldset>
+                            <div>
+                            <!--<label for="email">Email: </label>-->
+                            <input id="email" type="email"  placeholder="введите email" required />
+                            </div><br />
+                            
+                            <div>
+                            <!--<label for="text_field">Имя: </label>-->
+                            <input id="text_field" type="text"  placeholder="введите имя" required />
+                            </div><br />
+                            
+                            <div>
+                            <!--<label for="pwd">Пароль: </label>-->
+                            <input id="pwd" type="password"  placeholder="введите пароль" required />
+                            </div><br />
+                            <input id="pwd_2" type="password"  placeholder="повторите пароль" required />
+                            <input type="submit" id="submit" value="Регистрация" />
+                        </fieldset>
+                        </form>
+                    </div>
+                </div>
+    		</div>
+            <div id="rightcol">
+            </div>
+            <div id="footer">
+            </div>
+		</div>
+	</body>
 </html>
-
-
-<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Регистрация</title>
-</head>
-<h1>Регистрация нового покупателя</h1>
-<form action="#" method="post">
-<fieldset>
-<legend>После регистрации проверьте свой почтовый ящик</legend>
-<div>
-<label for="email">Email: </label>
-<input id="email" type="text"  placeholder="введите email" required="required"/>
-</div><br />
-<div>
-<label for="textField">Имя: </label>
-<input id="textField" type="text"  placeholder="введите имя" required="required"/>
-</div><br />
-<div>
-<label for="pwd">Пароль: </label>
-<input id="pwd" type="password"  placeholder="введите пароль" required="required"/>
-</div><br />
-<input id="" type hidden="" />
-</fieldset>
-<body>
-</body>
-</html>
--->

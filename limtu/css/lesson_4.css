@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*-----------paddind----------*/
+/*padding: 10px 15px 20px; top/right-left/bottom*/
+
+.block1, .block2{
+	padding:50px;
+	border:3px solid red;
+	height:150px;
+	width:300px;
+	margin:40px;	
+}
+
+.block2 {
+	box-sizing: border-box;
+}
+
+/*display none */
+
+.visible, .hidden {
+	visibility:hidden; /* место блока остается */
+	visibility:collapse;
+	display:none; /* место не остается */
+}
+
+.float {
+	height:100px;
+	width:100px;
+	border:1px solid black;
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+
+.clear {
+	clear:both;
+}
+
+.overflow-visible,
+.overflow-scroll,
+.overflow-hidden {
+	display:block;
+	padding:5px;
+	height:100px;
+	width:70px;
+	border:1px solid red;
+	margin:20px;
+	float:left;
+}
+.overflow-scroll {
+	overflow:scroll;
+}
+.overflow-hidden {
+	overflow:hidden;
+}
+
+.static, .fixed, .relative, .absolute {
+	width:250px;
+	height:60px;
+	border:2px dashed green;
+	margin:10px;
+}
+.relative {
+	position:relative;
+	top:20px;
+	left:100px;
+}
+.absolute {
+	position:absolute;
+	top:30px;
+	left:700px;
+	
+}
+.fixed {
+	position:fixed;
+	top:20px;
+	left:500px;
+}

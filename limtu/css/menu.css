@@ -1,0 +1,38 @@
+/*--------------MENU----------------*/
+
+.menu {
+	background: #C00;
+	color:#FFF;
+	/*border-bottom:1px solid #900;
+	border-top:1px solid #900;*/
+}
+
+.menu li {
+	display: inline-block;
+	text-align:center;
+	height:40px;
+	width:100px;
+	list-style-type:none;
+}
+
+.menu li:hover {
+	display: inline-block;
+	background-color:#FFF;
+	text-align:center;
+	height:40px;
+	width:100px;
+	list-style-type:none;
+}
+
+.menu a {
+	display:block;
+	padding-top:10px;
+	color:#fff;
+	font-size:18px;
+}
+.menu li a:hover {
+	color: #000;
+}
+.menu li a:visited {
+	color:#000;
+}

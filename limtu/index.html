@@ -1,44 +1,96 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<meta charset="utf-8" />
-		<title>Главная страница</title>
-	</head>
-	<body>
-		<div id="container">
-			<div id="topline">
-				<div class="register">
-        			<label for="search">Поиск: </label>
-                    <div id="search">
-					<input id="search" type="search"  placeholder="введите слова для поиска" />
-        			<a href="account.html">Вход/Регистрация</a>
-                    </div>
-    			</div>
-    		</div>
-            <div id="header">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8" />
+	<title>Главная страница</title>
+</head>
+<body>
+	<div class="container">
+		<div class="topline row">
+        <div class="logo col-2">
+        <a href="/">Online-List.ru</a>
+        </div>
+			<div class="register col-1 offset-6">
+			<a href="account.html">Вход</a> | <a href="account.html">Регистрация</a>
             </div>
-    		<div class="breadcrumbs">Главная</div>
+            <div class="search_form">
+			<input id="search" type="search"  placeholder="введите слова для поиска" />
 			</div>
-            <div id="leftcol">
-            <h3>Меню</h3>
-                <ul>
-                    <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
-                    <li><a href="styles.html">Стили</a></li>
-                    <li><a href="forms.html">Формы</a></li>
-                </ul>
-            </div>
-            <div id="main">
-                <div class="topblock">
-                <h1>Приветствуем в нашем интернет-магазине!</h1>
-                <h3>Выберите нужный раздел в меню</h3> 
-                </div>
-            </div>
-            <div id="rightcol">
-            </div>
-            <div id="footer">
-            </div>
 		</div>
-	</body>
+		<div class="menu col-12 row">
+            <ul class="col-6 offset-3 ">
+            	<li><a href="/">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="styles.html">Стили</a></li>
+                <li><a href="forms.html">Формы</a></li>
+            </ul>
+		</div>
+		<div class="header col-12 row">
+        	<div class="row">
+				<div class="col-3 tst-col-head">
+					<div>
+                    <img src="img/osen/5.jpg" />
+					</div>
+				</div>
+				<div class="col-6 tst-col-head">
+					<div>
+                    <img src="img/banner.jpg" />
+					</div>
+				</div>
+				<div class="col-3 tst-col-head">
+					<div>
+                    <img src="img/osen/4.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="leftcol">
+		</div>
+		<div class="topblock col-7 offset-2">
+				<h1>Приветствуем в нашем интернет-магазине осенних листьев!</h1>
+		</div>
+		<div class="main row col-12">
+			<div class="breadcrumbs"><h3>Главная >></h3>
+			</div>
+			<div class="row">
+				<div class="col-4 tst-col-main">
+					<div><img src="img/osen/2.jpg" />
+					</div>
+				</div>
+				<div class="col-4 tst-col-main">
+					<div><img src="img/osen/3.jpg" />
+					</div>
+				</div>
+				<div class="col-4 tst-col-main">
+					<div><img src="img/osen/1.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rightcol">
+		</div>
+		<div class="footer col-12">
+        	<div class="row">
+				<div class="col-3 tst-col-foot">
+					<div><h3>Заголовок</h3>Пришла осень. С каждым днем становится холоднее. Солнце светит, но не греет. За день земля не успевает нагреваться.
+					</div>
+				</div>
+				<div class="col-3 tst-col-foot">
+					<div><h3>Заголовок</h3>Листья на деревьях желтеют и опадают. Вся земля усыпана опавшими листьями. Редеют верхушки деревьев. Не слышно пения птиц.
+					</div>
+				</div>
+				<div class="col-3 tst-col-foot">
+					<div><h3>Заголовок</h3>Небо часто покрывается темными тучами. Идут холодные косые дожди. Дует резкий, пронизывающий ветер. Собран урожай в садах и огородах.
+					</div>
+				</div>
+                <div class="col-3 tst-col-foot">
+					<div><h3>Заголовок</h3>На полях пусто. Только кое-где зеленеют всходы озимины. Все напоминает о том, что пришла осень.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>

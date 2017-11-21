@@ -104,6 +104,7 @@ h4 {}
 	background: #fff;
 	border:5px solid #FFF;
 	margin:20px;
+	text-align-last: justify;
 }
 
 .tst-col-main img {

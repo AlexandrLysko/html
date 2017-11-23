@@ -1,0 +1,239 @@
+@import "reset.css";
+@import "grid.css";
+@import "menu.css";
+
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../img/bg.jpg) fixed repeat top center;
+	font-size:14px;
+	color: #666;
+}
+
+.container {
+	width:1200px;
+	margin: 0 auto;
+	text-align: left;
+	padding-left:0;
+	padding-right:0;
+}
+	
+h1 {
+	font-size:24px;
+	padding-bottom:10px;
+	color:#666;
+}
+h2 {}
+h3 {
+	font-size:18px;
+	color:#666;
+	padding-bottom:10px;
+}
+h4 {}
+
+.logo {
+	padding-top:7px;
+	padding-left:10px;
+}
+.logo a {
+	font-size:24px;
+	font-style:italic;
+	color:#fff;
+}
+
+.header{
+	height:250px;
+	text-align:center;
+}
+
+
+/*.leftcol {
+	padding:10px;
+}*/
+
+.main {
+	min-height:500px;
+}
+
+.topline {
+	height:40px;
+	background-color: #000;
+}
+.top-text {
+	color:#FFF;
+}
+.search_form {
+	display:inline-block;
+	margin:5px;
+	float:right;
+}
+
+
+.search_form input {
+	height:30px;
+	width:195px;
+	padding-left:5px;
+	color: #999;
+}
+
+.register{
+	width:180px;
+	margin-top:10px;
+	color:#fff;
+	font-size:13px;
+}
+.register a {
+	color:#fff;
+}
+
+.register a:hover {
+	color:#ccc;
+}
+
+.rigtcol {}
+
+.footer {
+	height:300px;
+	margin-top:100px;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+.topblock {}
+
+.tst-col-main div {
+	overflow:hidden;
+	height:400px;
+	background: #fff;
+	border:5px solid #FFF;
+	margin:20px;
+	text-align-last: justify;
+}
+
+.tst-col-main img {
+	height: 400px;
+}
+
+.tst-col-head div {
+	overflow:hidden;
+	height:190px;
+	text-align:center;
+	padding-top:5px;
+	margin:20px 5px;
+}
+
+.tst-col-head img {
+	height: 185px;
+	border:3px solid #000;
+}
+
+.tst-col-foot div {
+	height:100px;
+	background: url(../img/block-bg.jpg);
+	padding:10px;
+	margin:10px;
+	font-size:12px;
+}
+.breadcrumbs {
+	padding:10px;
+}
+.topblock {
+	text-align:center;
+	font-size:24px;
+	color:#060;
+}
+
+.mainblock {
+	margin:20px;
+}
+
+.cells {
+	width:70%;
+	padding:10px;
+	text-align:center;
+	color: black;
+	margin-left: 200px;
+}
+.cells  td{
+	border-bottom:solid 1px black;
+	margin:5px;
+	padding:10px;
+	text-align:center;
+}
+.cells  tr{
+	height:30px;
+}
+
+
+.cells th {
+	border-bottom:solid 1px black;
+	width:150px;
+	padding:10px;
+	text-align:center;
+}
+
+th {
+	font-weight:bold;
+
+.cells img {
+	text-align:center;
+}
+
+.tst-col-main img:hover {
+	padding-top:2px;
+	padding-left:2px;
+	cursor:pointer;
+}
+
+
+/* Css selectors 
+
+Классы .class-name
+Селекторы тегов h3
+Идентификаторы Id элемента #elem_id
+Контекстные селекторы .class-name li (если ul class="class-name")
+
+textarea {
+	resize:none;
+	height:100vh; вся высота экрана
+	display: inline-block; //блоки в строчку
+	border:solid 1px red; //type size color
+}
+*/
+
+
+/* ---------- reg-form ---------- */
+
+.reg-form {
+	margin: auto;
+	width: 300px;
+}
+
+.reg-form fieldset {
+	background: #fff;
+	padding: 15px;
+}
+
+.reg-form input {
+	font-size: 14px;
+}
+
+.reg-form input[type="email"],
+.reg-form input[type="password"],
+.reg-form input[type="text"] {
+	border: 1px solid #dcdcdc;
+	padding: 10px;
+	width: 250px;
+}
+
+
+.reg-form input[type="submit"] {
+	background: #009900;
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 12px 20px;
+	cursor:pointer;
+}
+
+.reg-form input[type="submit"]:hover { background: #bbb; }

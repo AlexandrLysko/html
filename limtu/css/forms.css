@@ -1,0 +1,35 @@
+.reg-form {
+	margin: auto;
+	width: 300px;
+}
+
+.reg-form fieldset {
+	background: #fff;
+	padding: 15px;
+}
+
+.reg-form input {
+	font-size: 14px;
+}
+
+.reg-form input[type="email"],
+.reg-form input[type="password"],
+.reg-form input[type="text"] {
+	border: 1px solid #dcdcdc;
+	padding: 10px;
+	width: 250px;
+}
+
+
+.reg-form input[type="submit"] {
+	background: #009900;
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 12px 20px;
+	cursor:pointer;
+}
+
+.reg-form input[type="submit"]:hover { background: #bbb; 
+}

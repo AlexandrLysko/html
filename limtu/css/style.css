@@ -160,11 +160,10 @@ h4 {}
 }
 
 .cells {
-	width:70%;
+	width:100%;
 	padding:10px;
 	text-align:center;
 	color: black;
-	margin-left: 200px;
 }
 
 .cells  td{
@@ -197,60 +196,6 @@ th {
 	cursor:pointer;
 }
 
-
-/* Css selectors 
-
-Классы .class-name
-Селекторы тегов h3
-Идентификаторы Id элемента #elem_id
-Контекстные селекторы .class-name li (если ul class="class-name")
-
-textarea {
-	resize:none;
-	height:100vh; вся высота экрана
-	display: inline-block; //блоки в строчку
-	border:solid 1px red; //type size color
-}
-*/
-
-
-/* ---------- reg-form ---------- */
-
-.reg-form {
-	margin: auto;
-	width: 300px;
-}
-
-.reg-form fieldset {
-	background: #fff;
-	padding: 15px;
-}
-
-.reg-form input {
-	font-size: 14px;
-}
-
-.reg-form input[type="email"],
-.reg-form input[type="password"],
-.reg-form input[type="text"] {
-	border: 1px solid #dcdcdc;
-	padding: 10px;
-	width: 250px;
-}
-
-
-.reg-form input[type="submit"] {
-	background: #009900;
-	color: #fff;
-	float: right;
-	font-weight: bold;
-	margin-top: 20px;
-	padding: 12px 20px;
-	cursor:pointer;
-}
-
-.reg-form input[type="submit"]:hover { background: #bbb; 
-}
 
 @media screen and (max-width: 960px) {
 .topblock h2 {

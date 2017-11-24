@@ -1,0 +1,55 @@
+@media тип устройства выражение (ширина) {
+	styles
+}
+
+@media screen and (max-width: 600px) {
+	.slider {
+		display:none;
+	}
+	#menu {
+		
+	}
+}
+
+/*логические операторы*/
+
+@media (min-width:200px) and (max-width: 600px) {
+	.slider {
+		display:none;
+	}
+	#menu {
+		
+	}
+}
+
+/*запятая*/
+@media screen, (max-width: 600px) {
+	.slider {
+		display:none;
+	}
+	#menu {
+		
+	}
+}
+
+/*not*/
+@media not screen, (max-width: 600px) {
+	.slider {
+		display:none;
+	}
+	#menu {
+		
+	}
+}
+
+/*Типы устройств: 
+all, print, screen, speech*/
+
+/*Характеристики: 
+width (px, em..), min-width, max-width
+height (px, em..), min-height, max-height*/
+
+/*Ориентация
+portrait
+landscape*/
+

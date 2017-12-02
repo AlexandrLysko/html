@@ -108,7 +108,7 @@
 .offset-12 {
     margin-left: 100%
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 991px) {
 .nodisplay {
 	display:none;
 }
@@ -128,9 +128,15 @@
 	font-size:16px;
 	font-weight:bold;
 }
+.offset-2 {
+	margin-left:0;
+}
+.col-mn-10{
+	width:100%;
+}
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
 .nodisplay, .min-nodysplay {
 	display:none;
 }
@@ -143,8 +149,15 @@
 .col-mn-4 {
     width: 100%
 }
+
+.col-mn-10 {
+	width:100%;
+}
 .topblock h2 {
 	font-size:14px;
 	font-weight:bold;
+}
+.offset-2 {
+	margin-left:0;
 }
 }

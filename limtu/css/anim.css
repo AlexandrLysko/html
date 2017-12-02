@@ -1,0 +1,105 @@
+/*.linear-gradient {
+	text-decoration:none;
+	display:inline-block;
+	padding:20px 30px;
+	background: linear-gradient(45deg, red 20%, yellow 50%, orange 90%);
+	
+}*/
+
+.linear-gradient {
+	text-decoration:none;
+	display:inline-block;
+	padding:20px 30px;
+	background: #333;
+	
+	
+}
+.linear-gradient:hover {
+	background: #fff;
+	transition:2S;
+	
+}
+
+.transition {
+	width:200px;
+	height:70px;
+	position:absolute;
+	left:-150px;
+	background:red;
+}
+.transition:hover {
+	background:green;
+	left:10px;
+	transition: background .2s ease .3s, left .2s ease .7s;
+}
+	
+/*transition:
+transition-property:
+transition-duration:
+transition-timing-function:
+transition-duration:*/
+
+.transform {
+	height:200px;
+	width:200px;
+	border-radius:100px;
+	background: radial-gradient(circle closest-side at 30px 20px, #fff, #000);
+	box-shadow: 5px 10px 20px #333;
+}
+.transform:hover {
+	transform: translate (100px, 100px scale (1.5, 1.9) rotate (720deg);
+}
+
+.triangle {
+	margin-left:500px;
+	width:0;
+	height:0;
+	border-left: 50px solid trasparent;
+	border-right: 50px solid trasparent;
+	border-bottom: 100px solid red;
+}
+
+.anim {
+	position:absolute;
+	top:0;
+	left:150px;
+	padding:10px 50px;
+	background:green;
+	animation:animName 10s infinite ease-in-out;
+}
+/*имя продолжительность время шаги направление*/
+
+@keyframes animName {
+/*	from {
+		background:yellowgreen;
+	}
+	50% {
+		background:black;
+	}
+	to {
+		background:red;
+	}*/
+	from,
+	to {
+		top:0;
+		left:150px;
+	}
+	25%,
+	75% {top:100%;
+	}
+	100% {
+		top:50%;
+	}
+}
+
+ul li {
+	list-style-type:none;
+	width:40px;
+	height:40px;
+	border-radius:20px;
+	margin-bottom:5px;
+	background:gray;
+}
+	
+	
+	
